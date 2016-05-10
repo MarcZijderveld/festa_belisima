@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-position: bottom 3.5vh center;
+    height: 100%;
+}
+
+/* ----- Fonts -----*/
+.navigation-button, #login, #logout, #profile-details, .content, .container-footer{
+    font-family: 'Arimo', sans-serif;
+}
+/* ----- Fonts END -----*/
+
+/* ----- Navigation -----*/
+.container-menu-bar{
+    height: 5%;
+}
+
+.navigation-button {
+    width: 5vw;
+    height: 4vh;
+    margin: 0.8vh 5px;
+    text-align: center;
+    font-size: 1.5vh;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    color: #33332e;
+}
+/* ----- END Navigation -----*/
+
+/* ----- Main Layout -----*/
+#banner {
+    height: 18vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-header{
+    margin-right: auto;
+    padding-top: 3.6vh;
+    height: 20%;
+}
+
+.wrapper
+{
+    min-height: 100%;
+    margin-bottom: -4vh;
+}
+
+.wrapper:after {
+    content: "";
+    display: block;
+}
+
+.container {
+    height: 60%;
+}
+
+.content {
+    height: 100%;
+    float: left;
+    width: 40vm;
+    padding-left: 30vw;;
+    display:table;
+    margin-bottom: 2vh;
+}
+
+.container-menu{
+    padding-left: 35vw;
+    height: 5.6vh;
+    background-color: #f16522;
+}
+
+.container-footer{
+    height: 4vh;
+    clear:both;
+    background-color: #f16522;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+/* ----- END Main Layout -----*/
+
+/* ----- Activity Layout -----*/
+#activity_table {
+    box-shadow: 10px 10px 5px #888888;
+    border-radius: 0.3vw;
+    border:2px solid #ccc;
+}
+
+#activities_table_head
+{
+    border:1px solid #ccc;
+    border-width:0px 1px 1px 0px;
+    text-align:left;
+    padding:8px;
+    font-size: 2vh;
+    font-weight:bold;
+    color:#000000;
+    background-color: #f16522;
+}
+
+#activities_table_row
+{
+    border:1px solid #ccc;
+    border-width:0px 1px 1px 0px;
+    text-align:left;
+    padding:8px;
+    font-size: 1.5vh;
+    font-weight:normal;
+    color:#000000;
+}
+
+#activities {
+    float: left;
+    position: inherit;
+    width: 35vw;
+    display:table;
+    border-radius: 0.3vw;
+    border:2px solid #ccc;
+    padding: 0.5vw 1.8vw 1vw;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    font-size: 1.6vh;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: #ffffff;
+}
+
+/* ----- END Activity Layout -----*/
+
+
+/* ----- Profile Layout -----*/
+#profile-details{
+    float: left;
+
+    width: 12vw;
+    border-radius: 0.3vw;
+    border:2px solid #ccc;
+    padding: 0.5vw 1.8vw 1vw;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    font-size: 1.6vh;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+/* ----- END Profile Layout -----*/
+
+/* ----- General Page Layout -----*/
+#onPage{
+    background-color: #33332e;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+#page-head {
+    margin-left: 3vw;
+    margin-top: 2.5vh;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+#page-content{
+    margin-left: 3vw;
+    margin-top: 2.5vh;
+    font-size: 1vw;
+}
+
+
+#image{
+    width: 22vw;
+    height: 14vh;
+    float: right;
+    margin-left: 1vw;
+    margin-bottom: 1vh;
+    box-shadow: 10px 10px 5px #888888;
+    border-radius: 0.3vw;
+    border:2px solid #ccc;
+}
+
+/* ----- END General Page Layout -----*/
+
+/* ----- Login / Logout Layout -----*/
+#logout {
+    float: right;
+    padding: 5px;
+    color: #33332e;
+}
+
+#login {
+    float: left;
+
+    width: 15vw;
+    border-radius: 0.3vw;
+    border:2px solid #ccc;
+    padding: 0.5vw 1.8vw 1vw ;
+    margin-left: 40vw;
+    margin-top: 7vh;
+    font-size: 1.6vh;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: #ffffff;
+}
+
+
+#create-account{
+    float: left;
+    position: inherit;
+    width: 13vw;
+    border-radius: 0.3vw;
+    border:2px solid #ccc;
+    padding: 0.5vw 1.8vw 1vw;
+    margin-top: 2vh;
+    margin-left: 3vw;
+    font-size: 1.6vh;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#loginField{
+    width: 15vw;
+    padding:0.6vw;
+    margin-top: 0.4vw;
+    margin-bottom: 0.4vw;
+    border: 1px solid #ccc;
+    padding-left: 0.3vw;
+    font-size: 1.6vh;
+}
+
+/* ----- END Login / Logout Layout -----*/
+
+/* -----  Form Layout -----*/
+#contactField {
+    float: left;
+    position: inherit;
+    width: 25vw;
+    padding: 0.6vw;
+    border-radius: 0.3vw;
+    border:2px solid #ccc;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    font-size: 1.6vh;
+    background-color: #ffffff;
+    height: auto;
+}
+
+#formField{
+    width: 10.5vw;
+    padding: 0.6vw;
+    margin-top: 0.4vw;
+    margin-bottom: 0.4vw;
+    border: 1px solid #ccc;
+    padding-left: 0.3vw;
+    font-size: 1.5vh;
+    height: auto;
+}
+
+#messageField{
+    width: 25vw;
+    height: 20vh;
+    padding:0.6vw;
+    margin-top: 0.4vw;
+    margin-bottom: 0.4vw;
+    border: 1px solid #ccc;
+    padding-left: 0.3vw;
+    font-size: 1.5vh;
+    resize: none;
+}
+
+#login_button {
+    width: 15vw;
+    background-color:#f16522;
+    color:#fff;
+    border:2px solid #f16522;
+    padding: 0.6vw;
+    font-size: 2.0vh;
+    cursor:pointer;
+    border-radius: 0.3vw;
+    margin-bottom: 0.7vw;
+    margin-top: 0.7vw;
+}
+
+#form_button {
+    width: 10vw;
+    background-color:#f16522;
+    color:#fff;
+    border:2px solid #f16522;
+    padding: 0.6vw;
+    font-size: 2.0vh;
+    cursor:pointer;
+    border-radius: 0.3vw;
+    margin-bottom: 0.7vw;
+    margin-top: 0.7vw;
+}
+
+#form_button_small {
+    width: 4vw;
+    height: 2.5vh;
+    background-color:#f16522;
+    color:#fff;
+    border:2px solid #f16522;
+    font-size: 1.5vh;
+    cursor:pointer;
+    border-radius: 0.3vw;
+}
+
+/* ----- END Form Layout -----*/
+
+/* ----- Link Layout -----*/
+a:link {
+    color: #33332e;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #33332e;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #f16522;
+    font-weight: bold;
+}
+
+a:active {
+    color: #f16522;
+    font-weight: bold;
+}
+/* ----- END Link Layout -----*/
+
+
